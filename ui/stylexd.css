@@ -6,15 +6,18 @@
     overflow: hidden;
 }
 
-.bkg{
-    background-image: url('https://media.discordapp.net/attachments/837501220880121916/887775263818121277/unknown.png?');
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
 .aviso{
     color: rgb(240, 236, 18);
     border-color: rgb(240, 236, 18);
+}
+
+.procurado{
+    color: rgb(240, 236, 18);
+    border-color: rgb(240, 236, 18);
+}
+
+.fa-star{
+    animation: pisca-pisca-dos-guri .9s linear infinite;
 }
 
 .importante{
@@ -34,8 +37,9 @@
 
 li .fas{
     font-size: 1.4rem;
-    width: 3vw;
-    padding: 1vh 0vw 0vh 1.5vw;
+    min-width: 2vw;
+    height: auto;
+    padding: 0.7vh 0vw 0vh 0.5vw;
 }
 
 li p{
@@ -43,27 +47,41 @@ li p{
     font-family: 'roboto';
     font-size: 0.8rem;
     font-weight: 300;
-    margin: 1.3vh 0vw 0vh 0.5vw;
+    margin: 1.1vh 0vw 0vh 0.5vw;
     width: 11vw;
 }
 
 
 ul {
     width: 15vw;
-    height: 50vh;
+    height: 48vh;
     float: right;
+    margin-top: 30vh;
+}
+
+.left{
+    width: 15vw;
+    height: 48vh;
+    float: left;
     margin-top: 30vh;
 }
 
 ul li{
     list-style: none;
     margin: 1vh;
-    height: 5vh;
-    width: 14vw;
+    min-height: 5vh;
+    min-width: 14vw;
     background-color: rgba(0, 0, 0, 0.705);
-    border-top: 1vh solid rgba(48, 211, 26, 0.637);
+    border-top: 1vh solid rgba(192, 197, 191, 0.637);
     border-radius: 1vh;
     display: flex;
+    height: auto;
+    width: auto;
+    padding: 0vh 0.3vw 0.5vh 0.3vw;
 }
 
-
+@keyframes pisca-pisca-dos-guri{
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0;}
+}

@@ -12,3 +12,4 @@ tempo, diferencial = diferencial }) diferencial = diferencial + 1 end)
 -- sucesso
 -- negado
 -- financeiro
+-- procurado
