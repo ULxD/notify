@@ -12,13 +12,6 @@
     height: 100vh;
     width: 100vw;
 }
-
-li .fas{
-    font-size: 1.4rem;
-    width: 3vw;
-    padding: 1.4vh 0vw 0vh 1.5vw;
-}
-
 .aviso{
     color: rgb(240, 236, 18);
     border-color: rgb(240, 236, 18);
@@ -39,32 +32,35 @@ li .fas{
     border-color: rgba(241, 25, 25, 0.918);
 }
 
+li .fas{
+    font-size: 1.4rem;
+    width: 3vw;
+    padding: 1vh 0vw 0vh 1.5vw;
+}
+
 li p{
-    color: white;
-    font-family: 'Roboto';
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin: 1.7vh 0vw 0vh 0.5vw;
+	color: #f0eeee;
+    font-family: 'roboto';
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 1.3vh 0vw 0vh 0.5vw;
+    width: 11vw;
 }
 
 
 ul {
-    display: flex;
-    flex-wrap: wrap;
     width: 15vw;
-    height: 60vh;
+    height: 50vh;
     float: right;
     margin-top: 30vh;
-   
- 
+    background-color: teal;
 }
 
 ul li{
     list-style: none;
     margin: 1vh;
-    padding: 0;
-    height: 60px;
-    width: 500px;
+    height: 5vh;
+    width: 14vw;
     background-color: rgba(0, 0, 0, 0.705);
     border-top: 1vh solid rgba(48, 211, 26, 0.637);
     border-radius: 1vh;
