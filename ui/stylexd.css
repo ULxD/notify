@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+.bkg{
+    background-image: url('https://media.discordapp.net/attachments/837501220880121916/887775263818121277/unknown.png?');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+li .fas{
+    font-size: 1.4rem;
+    width: 3vw;
+    padding: 1.4vh 0vw 0vh 1.5vw;
+}
+
+li .fa-check-circle{
+    color: green;
+    font-size: 1.3rem;
+}
+
+li .fas-exclamation-triangle{
+    color: rgb(240, 236, 18);
+    font-size: 1.3rem;
+
+}
+
+li .fa-info-circle{
+    color: rgb(18, 207, 240);
+    font-size: 1.3rem;
+
+}
+
+.aviso{
+    color: rgb(240, 236, 18);
+    border-color: rgb(240, 236, 18);
+}
+
+.importante{
+    color: rgb(18, 207, 240);
+    border-color: rgb(18, 207, 240);
+}
+
+.sucesso{
+    color: rgba(48, 211, 26, 0.637);
+    border-color: rgba(48, 211, 26, 0.637);
+}
+
+.negado{
+    color: rgba(241, 25, 25, 0.918);
+    border-color: rgba(241, 25, 25, 0.918);
+}
+
+li p{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 1.7vh 0vw 0vh 0.5vw;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15vw;
+    height: 60vh;
+    float: right;
+    margin-top: 30vh;
+   
+ 
+}
+
+ul li{
+    list-style: none;
+    margin: 1vh;
+    padding: 0;
+    height: 60px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-top: 1vh solid rgba(48, 211, 26, 0.637);
+    border-radius: 1vh;
+    display: flex;
+}
+
+
