@@ -19,23 +19,6 @@ li .fas{
     padding: 1.4vh 0vw 0vh 1.5vw;
 }
 
-li .fa-check-circle{
-    color: green;
-    font-size: 1.3rem;
-}
-
-li .fas-exclamation-triangle{
-    color: rgb(240, 236, 18);
-    font-size: 1.3rem;
-
-}
-
-li .fa-info-circle{
-    color: rgb(18, 207, 240);
-    font-size: 1.3rem;
-
-}
-
 .aviso{
     color: rgb(240, 236, 18);
     border-color: rgb(240, 236, 18);
