@@ -20,6 +20,10 @@
     animation: pisca-pisca-dos-guri .9s linear infinite;
 }
 
+.fa-user-clock{
+    animation: pisca-pisca-dos-guri .9s linear infinite;
+}
+
 .importante{
     color: rgb(18, 207, 240);
     border-color: rgb(18, 207, 240);
@@ -35,11 +39,16 @@
     border-color: rgba(241, 25, 25, 0.918);
 }
 
+.zancudo{
+    color: rgb(233, 13, 13);
+    border-color: rgba(9, 79, 230, 0.918);
+}
+
 li .fas{
     font-size: 1.4rem;
     min-width: 2vw;
     height: auto;
-    padding: 0.7vh 0vw 0vh 0.5vw;
+    padding: 1.1vh 0vw 0vh 0.5vw;
 }
 
 li p{
@@ -47,10 +56,15 @@ li p{
     font-family: 'roboto';
     font-size: 0.8rem;
     font-weight: 300;
-    margin: 1.1vh 0vw 0vh 0.5vw;
+    margin: 1.2vh 0vw 0vh 0.5vw;
     width: 11vw;
 }
 
+li .searchTimer{
+    margin: 1.2vh 0vw 0vh 0.6vw;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 ul {
     width: 15vw;
@@ -69,7 +83,7 @@ ul {
 ul li{
     list-style: none;
     margin: 1vh;
-    min-height: 5vh;
+    min-height: 5.9vh;
     min-width: 14vw;
     background-color: rgba(0, 0, 0, 0.705);
     border-top: 1vh solid rgba(192, 197, 191, 0.637);
@@ -84,4 +98,36 @@ ul li{
     0% {opacity: 1;}
     50% {opacity: 0.5;}
     100% {opacity: 0;}
+}
+
+@media only screen and (max-width:1680px){
+    li .fa-star{
+        font-size: 1.3rem;
+        min-width: 2vw;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    li .fa-star{
+        font-size: 1.1rem;
+        min-width: 2vw;
+    }
+    li .searchTimer{
+        margin: 1.2vh 0vw 0vh 0.5vw;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    li .fa-star{
+        font-size: 0.85rem;
+        min-width: 2vw;
+        margin-top: 0.4vh;
+    }
+    li .searchTimer{
+        margin: 1.4vh 0vw 0vh 0.5vw;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
 }
